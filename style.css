@@ -95,20 +95,19 @@ h3 {
   font-size: large;
   padding-left: 20px;
 }
-.fa-user {
+.leftIcon {
+  position: relative;
+  margin-left: 15px 20px;
+}
+.leftIcon input {
+  padding: 6px 30px;
+  margin: 0 0 20px;
+}
+.leftIcon i {
   position: absolute;
-  margin-left: 10px;
-  padding: 10px 10px;
-  border-right: 1px solid black;
-}
-input {
-  background-color: #f92b73;
-  width: auto;
-  height: auto;
-  padding: 10px 5px;
-}
-::placeholder {
-  color: #000000;
-}
+  top: 13%;
+  left: 7px;
 
+  padding-right: 5px;
+}
 /* Project code ends here */
